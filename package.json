@@ -16,8 +16,8 @@
     "type": "git",
     "url": "git://github.com/colyseus/colyseus.js.git"
   },
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "dist/colyseus.js",
+  "typings": "dist/colyseus.d.ts",
   "scripts": {
     "test": "mocha test/*.ts --require ts-node/register",
     "build": "webpack --env.production",
